@@ -1,6 +1,11 @@
 # dotfiles
-A collection of my various linux home directory dotfiles/configs
+A collection of my Ubuntu home directory dotfiles
 
-Simply rename the file to begin with dot and place in your home directory.
+Simply rename the file to begin with dot and place in your home directory:
 
-For example: "dot_xmobarrc" should be named ".xmobarrc"
+```bash
+$ cp dot_vimrc ~/.vimrc
+$ cp dot_xmobarrc ~/.xmobarrc
+```
+
+enjoy!
