@@ -1,5 +1,15 @@
+if has('autocmd')
+  filetype plugin indent on
+endif
+if has('syntax') && !exists('g:syntax_on')
+  syntax enable
+endif
 :set expandtab
-:set tabstop=4
+:set smarttab
+:set tabstop=2
 :retab
-:set shiftwidth=4
+:set shiftwidth=2
 :set nu
+:set ruler
+:set incsearch
+execute pathogen#infect()
