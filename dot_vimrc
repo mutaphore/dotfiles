@@ -12,4 +12,5 @@ endif
 :set nu
 :set ruler
 :set incsearch
+:set paste
 execute pathogen#infect()
