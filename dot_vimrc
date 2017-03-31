@@ -1,9 +1,11 @@
 if has('autocmd')
   filetype plugin indent on
 endif
+
 if has('syntax') && !exists('g:syntax_on')
   syntax enable
 endif
+
 :set expandtab
 :set smarttab
 :set tabstop=2
@@ -13,4 +15,11 @@ endif
 :set ruler
 :set incsearch
 :set paste
+:set cursorline
+:set mouse=a
+
 execute pathogen#infect()
+
+colorscheme Benokai
+
+map <C-n> :NERDTreeToggle<CR>
