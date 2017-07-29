@@ -1,11 +1,11 @@
-# dotfiles
-A collection of my Ubuntu home directory dotfiles
+# Dotfiles
+A collection of my dotfiles
 
-Simply rename the file to begin with dot and place in your home directory:
+Simply rename the file and place in your home directory like so:
 
 ```bash
-$ cp dot_vimrc ~/.vimrc
-$ cp dot_xmobarrc ~/.xmobarrc
+$ cp dot-vimrc ~/.vimrc
+$ cp dot-tmux-dot-conf ~/.tmux.conf
 ```
 
-enjoy!
+enjoy! :)
