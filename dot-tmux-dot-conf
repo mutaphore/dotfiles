@@ -2,8 +2,10 @@
 set-window-option -g mode-keys vi
 
 # Vim keybindings to copy mode
+# (for Archlinux, remember to install xsel for clipboard to work)
 bind-key -T copy-mode-vi 'v' send -X begin-selection
 bind-key -T copy-mode-vi 'y' send -X copy-selection-and-cancel
+
 # for Tmux versions < 2.4
 #bind-key -t vi-copy 'v' begin-selection
 #bind-key -t vi-copy 'y' copy-selection
