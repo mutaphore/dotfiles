@@ -37,7 +37,10 @@ endif
 execute pathogen#infect()
 
 " colorscheme
-colorscheme tir_black
+" colorscheme tir_black
 
 " vim-airline
 let g:airline_theme='luna'
+
+" git-gutter
+autocmd BufWritePost * GitGutter
