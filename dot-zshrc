@@ -104,9 +104,12 @@ source $ZSH/oh-my-zsh.sh
 # fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# Tab complettion
 source ~/.oh-my-zsh/custom/plugins/fzf-tab-completion/zsh/fzf-zsh-completion.sh
-
-# only for git
+# for git
 zstyle ':completion:*:*:git' fzf-search-display true
-# or for everything
+# aws command completion 
+zstyle ':completion:*:*:aws' fzf-search-display true
+# for everything
 zstyle ':completion:*' fzf-search-display true
+
